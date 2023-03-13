@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "EBGaramond-Regular";
+  src: url("/fonts/EBGaramond-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ciutadella-Regular";
+  src: url("/fonts/Ciutadella-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+html,
+body, h1 {
+  font-family: 'EBGaramond-Regular', monospace;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0px;
+}
+
+span, label, p {
+  font-family: "Ciutadella-Regular", monospace;
+  text-transform: none;
+  font-weight: 400;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+// .desktop {
+//   display: block;
+// }
+// .mobile {
+//   display: none;
+// }
+
+// @media screen and (max-width: 1567px) {
+//   .desktop {
+//     display: none;
+//   }
+//   .mobile {
+//     display: block;
+//   }
+// }
